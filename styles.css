@@ -32,6 +32,9 @@ h2 {
 }
 
 .threevert {
+  /*width: 10px;
+  height: 10px;
+  background-color: white;*/
 }
 
 .threehoriz {
@@ -59,8 +62,10 @@ h2 {
 
 /* QUESTION 1 */
 
-.orange {
-  background-color: orange;
+.red.threevert {
+  width: 500px;
+  height: 100px;
+  background-color: red;
 }
 
 .yellow {
@@ -71,7 +76,9 @@ h2 {
   background-color: green;
 }
 
-.blue {
+.light-blue.threevert {
+  width: 500px;
+  height: 100px;
   background-color: blue;
 }
 
@@ -83,7 +90,9 @@ h2 {
   background-color: purple;
 }
 
-.white {
+#white {
+  width: 500px;
+  height: 100px;
   background-color: #fff;
 }
 
@@ -94,30 +103,54 @@ h2 {
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
-  /* TODO */
+  width: 500px;
+  height: 45px;
+  background-color: #B5002D;
 }
 
 .thailand-white {
-  /* TODO */
+  width: 500px;
+  height: 45px;
+  background-color: white;
 }
 
 .thailand-blue {
-  /* TODO */
+  width: 500px;
+  height: 120px;
+  background-color: #2E2A4C
 }
 
 /* END QUESTION 2 */
 
 /* BEGIN QUESTION 3 */
 
+/*.threehoriz {
+  display:flex;
+  flex-direction:row;
+  align-items: stretch;
+}*/
+
 .romania-blue {
+  width: 166px;
+  height: 300px;
   background-color: #002c84;
 }
 
 .romania-yellow {
+  position: relative;
+  left: 166px;
+  bottom: 300px;
+  width: 167px;
+  height: 300px;
   background-color: #ffcf00;
 }
 
 .romania-red {
+  position: relative;
+  left: 333px;
+  bottom: 600px;
+  width: 167px;
+  height: 300px;
   background-color: #e10017;
 }
 
@@ -125,15 +158,27 @@ h2 {
 
 /* QUESTION 4 */
 .mexico-green {
+  width: 166px;
+  height: 300px; 
   background-color: #006341;
 }
 
 .mexico-img {
-  /* TODO */
+  position: relative;
+  left: 180px;
+  bottom: 200px;
+  background-color: white;
+  width: 167px;
+  height: 100px;
 }
 
 .mexico-red {
+  position: relative;
+  left: 340px;
+  bottom: 300px;
   background-color: #ce1126;
+  width: 155px;
+  height: 300px;
 }
 
 /* QUESTION 6 */
@@ -146,20 +191,34 @@ h2 {
   justify-content: center;
 }
 
+.label {
+  color: purple;
+}
+
+.label:hover {
+  color: orange;
+  font-size: 60px;
+}
+
 /* For margin practice */
 .flag1 {
   background-color: red;
-  /* TODO */
+  margin: 10px;
 }
 
 .flag2 {
   background-color: blue;
-  /* TODO */
+  margin: 10px;
 }
 /* For padding practice */
 .padding-container {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
-  /* TODO */
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  /*height: 60px;
+  width: 60px;*/
 }
