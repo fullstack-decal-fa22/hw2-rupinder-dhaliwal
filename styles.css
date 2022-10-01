@@ -158,27 +158,31 @@ h2 {
 
 /* QUESTION 4 */
 .mexico-green {
-  width: 166px;
+  width: 173px;
   height: 300px; 
   background-color: #006341;
 }
 
 .mexico-img {
+  display:flex;
+  flex-direction:row;
+  align-items: center;
   position: relative;
-  left: 180px;
-  bottom: 200px;
-  background-color: white;
+  width: 150px;
+  left: 177px;
+  bottom: 220px;
+  /*background-color: white;
   width: 167px;
-  height: 100px;
+  height: 100px;*/
 }
 
 .mexico-red {
   position: relative;
-  left: 340px;
-  bottom: 300px;
+  left: 335px;
+  bottom: 436px;
   background-color: #ce1126;
-  width: 155px;
-  height: 300px;
+  width: 166px;
+  height: 301px;
 }
 
 /* QUESTION 6 */
@@ -203,22 +207,28 @@ h2 {
 /* For margin practice */
 .flag1 {
   background-color: red;
-  margin: 10px;
+  margin: 0px;
+  padding: 0px;
+
 }
 
 .flag2 {
   background-color: blue;
   margin: 10px;
+  padding: 0px;
 }
+
 /* For padding practice */
 .padding-container {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
-  display: flex;
+  /*display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: center;
+  justify-content: center;*/
   /*height: 60px;
   width: 60px;*/
+  padding: 60px;
+
 }
